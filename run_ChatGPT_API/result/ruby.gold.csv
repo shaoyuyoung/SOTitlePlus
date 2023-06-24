@@ -1,0 +1,610 @@
+Ruby Rails - Make Table With created_at Column
+What does assign do in rspec-rails?
+How to refine module method in Ruby?
+"Why [20, ..., 13, 14].min(2) => [13, 20]?"
+"Factory Girl / Rspec - ""Trait Not Registered"" Error"
+"In ActiveJob, how to catch any exception"
+"How can I process huge JSON files as streams in Ruby, without consuming all memory?"
+How do I use javascript_include_tag with js.erb file in Rails 4?
+Python equivalent of Ruby's .select
+Rails4.1: AWS errors missing region
+How can I set a hook to run code at the end of a Ruby class definition?
+Stubbing Time.now with RSpec
+Rails4 migration- adding null: false to an add_reference method?
+"Ruby file: ""ruby_executable_hooks"" syntax error"
+adding a class to a text_field_tag
+Pry not stopping when called from a Ruby script that reads from stdin
+Stub unimplemented method in rspec
+Can't run Ruby 2.2.3 with RVM on OSX
+How to raise an exception in an RSpec test
+Java Filter For Logstash
+How can I get month name from month number
+How can I query Rails ActiveRecord data stored in arrays
+"Missing `secret_token` and `secret_key_base` for 'development' environment, set these values in `config/secrets.yml`"
+Filter to exclude elements from array
+(<unknown>): could not find expected ':' while scanning a simple key at line 3 column 1 (Psych::SyntaxError)
+Get UserID for Current User using Devise/Rails
+RSpec custom diffable matcher
+Does ActiveJob have queues with specific priority?
+Celluloid async inside ruby blocks does not work
+Why are those two datetimes different?
+Ruby each vs while loop performance
+How assets precompile in development environment on ruby on rails?
+Rspec.config before(:each) except for specific :types
+Unique foreign key in rails migration
+When to use self in module's methods
+"What's the preferred way to dump a JSON object? to_json, JSON.generate or JSON.dump?"
+"rbenv and bundler: ""bad interpreter: No such file or directory"""
+Rspec run all tests except a specific folder
+How to handle multiple models in one rails form?
+Rspec `eq` vs `eql` in `expect` tests
+Using a heredoc as a hash value
+Rails how to tell if a sidekiq worker is done with perform_async
+Rails ActiveRecord Shovel (<<) Operator
+Using ActiveRecord find_in_batches method for deleting large data
+"jekyll not updating static CSS, HTML files in docker development container"
+Uncaught ReferenceError: ReactDOM is not defined
+How do you redirect to a page when the response keeps returning in JSON?
+Multiple calls to the same endpoint with different results in webmock?
+How to construct URI with query arguments from hash in Ruby
+Regex to check alphanumeric string in ruby
+Finding routes path from url string
+"Version sort (with alphas, betas, etc.) in ruby"
+What does class_methods do in concerns?
+Preloader wont ignore websocket - pace js
+"Does double less than minus ""<<-"" sign mean anything in ruby?"
+"Faraday::ConnectionFailed, Connection refused - connect(2) for localhost port 9200 Error Ruby on Rails"
+How to test with Rspec that a key exists inside a hash that contains an array of hashes
+Multiline strings with no indent
+RSpec expect to receive method with array but order does not matter
+Ruby: SSL_connect SYSCALL returned=5 errno=0 state=unknown state (OpenSSL::SSL::SSLError)
+Can I query a record with multiple associated records that fit certain criteria?
+Changing Active Model Serializers Default Adapter
+Rails: Methods shared by multiple controllers
+Day name with I18n
+CollectionProxy vs AssociationRelation
+rails - How to use onsubmit with form_tag
+How to add a virtual attribute to a model in Ruby on Rails?
+`sort_by': comparison of Array with Array failed (no nil data)
+Why does Ruby use its own syntax for safe navigation operator?
+How do you test a dummy rails app when writing a gem?
+El Capitan upgrade: Library not loaded: /usr/local/lib/libmysqlclient.18.dylib
+How to find text within brackets with some exceptions by regular expressions?
+How to check if private method is defined in ruby
+Typeahead in rails app: Append JSON request to only one specific request instead of appending JSON request to every request via prefetch
+Ruby: modules extending/including modules
+Ruby - Merge two arrays and remove values that have duplicate
+"Why does ""23 Dogs"" get parsed to 23 november 2015 in pry, but ""3 Dogs"" gives a parser error?"
+Redirect User to Signup
+Group by identity in Ruby
+Ruby sending mail via gmail smtp
+Error while installing the mimemagic in rails
+What does a class definition inside a class << self do?
+Rails MySQL ILIKE query
+jekyll debug or print all variables
+Initialize an object with a block
+Why can't protected methods be called with symbol to proc?
+Why does activerecord not populate an auto-incrementing column in the item returned from a create?
+`initialize': the scheme postgres does not accept registry part: postgres:@ (or bad hostname?) (URI::InvalidURIError) with Docker
+Does Ruby's CSV.open buffer to memory and write all at once?
+How to use x-www-form-urlencoded in rails
+"What is faster in Ruby, `arr += [x]` or `arr << x`"
+Invalid Authenticity Token on Post
+"Rake aborted, Error while trying to load the gem 'uglifier'"
+Why is URI.escape() marked as obsolete and where is this REGEXP::UNSAFE constant?
+select2 not saving input for Edit
+Cannot load grunt/sauce_browsers.yml on grunt dist with Bootstrap 4 Alpha 2
+"After gem update: test fail with ""Asset was not declared to be precompiled in production"""
+How do I use Array#dig and Hash#dig introduced in Ruby 2.3?
+How to cancel evaluating a required Ruby file? (a.k.a. top-level return)
+How to access private methods
+"Idiomatic use of double-colon (double-column, or ::) syntax for Ruby methods"
+uninitialized constant > ActionCable::Server::Configuration::ApplicationCable
+Can't install pg gem on Rails
+Set non-database attribute for rails model without `attr_accessor`
+before(:each) for all tests except one
+Singleton method vs. class method
+Rails - Bundle: command not found
+Ruby on Rails incompatible library
+Can't add custom fields to Devise model in Ruby on Rails. Private method error
+Ruby add method to a class
+"How do I resolve ""incompatible library version"" for mysql2 gem with ruby 2.3 on OS X?"
+Rails Rspec `require': cannot load such file -- rails_helper (LoadError)
+Safe navigation operator (&.) for nil
+"How to code ""press key to continue"""
+Gem therubyracer does not install even if libv8 is installed
+What is use of ||= begin....end block in Ruby?
+"already activated spring 1.4.0, but Gemfile requires spring 1.3.3[error]"
+Error while installing Nokogiri (1.6.7) on El Capitan
+"How does ""Assignment Branch Condition size for index is too high"" work?"
+Why is array.min so slow?
+How to not truncate Mongoid logs?
+To validate or not to validate boolean field
+How to parse a HTML table with Nokogiri?
+Using [] with the Safe Navigation Operator in Ruby
+What the purpose of bind/unbind methods in Ruby?
+Using HMAC SHA256 in Ruby
+How to write a test which loops through a range of values using RSpec?
+Why is `return a or b` a void value expression error in Ruby?
+Do 'starts_with' and 'start_with' have the same function in Ruby?
+Ruby/RVM with @global gem - bundle run fails with `require': cannot load such file  bundler (LoadError)
+Rails generator incompatible library
+Convert string into Array in rails
+undefined method `cache' for nil:NilClass after upgrading to rails 4.2.5.1
+"Why did Rails change ""drive"" to ""drife""?"
+undefined method `zone` for Time:Class after requiring active_support/time_with_zone
+Understanding Celluloid Concurrency
+Nil and boolean in Ruby
+Ruby find and return objects in an array based on an attribute
+Expect the creation of a new object
+How to upload a json file with secret keys to Heroku
+Rails 5 Upgrade: No such middleware to insert after: ActionDispatch::ParamsParser (RuntimeError)
+"What's the difference between ""Hash.new(0)"" and ""{}"""
+Current year in Ruby on Rails
+Unexpected value of __callee__ when including a module  is this a Ruby bug?
+"Testing rails API for sign-up with devise. Error: ""Missing 'confirm_success_url' parameter."""
+Whats does the [5.0] in Rails 5s ActiveRecord::Migration mean?
+Can I merge two Set objects in Ruby?
+Render JSON with header
+Calling a singleton method within an instance method in a module that extends itself
+Difference between __callee__ and __method__
+Ruby `send` vs `call` method
+don't have jekyll-paginate or one of its dependencies installed
+Ruby regular expression non capture group
+Expect all array elements to be of the same class
+How to use sort_by with values that could be nil?
+How to remove all non-digits from a string in ruby?
+How to unfreeze an object in Ruby?
+Rails concern method override another concern method doesn't work like normal modules
+Devise: Unpermitted parameters
+How to do a one-liner while loop in Ruby using curly braces
+XML to Hash conversion: Nori drops the attributes of the deepest XML elements
+A method with an optional parameter
+What is the difference between `size` and `length` methods
+How do I compare two hashes in RSpec?
+Ruby way to check if a string is not blank?
+Getting this error on precompiling assets: TypeError: couldn't digest ActiveSupport::StringInquirer
+URI::InvalidURIError: bad URI(is not URI?) testing Rails controllers
+How can I authorize a Google Service Account without the default credentials file?
+How to detect what causes a deprecation warning in Rake
+"Undefined instance method ""respond_to"" in Rails 5 API Controller"
+Ruby on Rails 4: Pluck results to hash
+What are factory_girl transient attributes? Why would I use one?
+Specs of my Rails app fail randomly because of wrong default locale
+kaminari undefined method `total_pages'
+Rspec 'cannot load such file'
+NoMethodError: undefined method `on' for main:Object
+rbenv: gem commands are not found on Linux Mint
+Capybara can not find element by id
+How to install Ruby on docker?
+Can I stop Bundler from adding RUBY VERSION to Gemfile.lock
+Rails/Rspec JSON integers being converted to strings when testing post call
+Ruby: No such file or directory @ rb_sysopen - testfile (Errno::ENOENT)
+Can't install thrift gem on OS X El Capitan
+Can action buttons be added to dashboard table on activeadmin?
+How to continue without breakpoints in Byebug
+Rails doesn't see environment variable
+How to avoid circular creation of associated models in factory_girl?
+rails subdomain on localhost
+Not able to install capybara-webkit using bundle install command in Rails 4
+Why is 10^9942066 the biggest power I can calculate without overflows?
+How to avoid using allow_any_instance_of?
+railstutorial where is debug information coming from
+Every time I try to deploy I get - (gcloud.preview.app.deploy) Error Response: [4] DEADLINE_EXCEEDED
+How to get list of all countries and cities in rails?
+"Ruby on Rails, issues using enum with same name"
+What does &. (ampersand dot) mean in Ruby?
+"ruby - iterate through a hash containing key/array value pairs, and iterate through each value"
+Ruby: How to access a constant from the class a module is included into
+Issue with adding a not null columns to an existing table
+How can I add a services directory to the load path in Rails?
+Rails using stremio-ffmpeg gem to watermark a movie while uploading
+Unused parameters passed to Capybara::Queries::SelectorQuery
+Install old cocoapods?
+"Is the server running on host ""localhost"" (::1) and accepting TCP/IP connections on port 5432?"
+Could not find 'cocoapods' (>= 0) among N total gem(s) (Gem::LoadError)
+Ruby hash equivalent of JavaScript's object initializer ES6 shorthand
+Rails ActiveAdmin. How to set default value?
+What causes deprecation warning: ActiveRecord::Base.raise_in_transactional_callbacks=?
+"Ruby - initialize inheritance, super with only certain arguments?"
+"Rails 5, ""nil is not a valid asset source"""
+How do I import ruby classes into the main file?
+How to encode emoji while sending to server (Ruby on Rails)?
+Python print environment variable memory address
+How to install gems from Gemfile?
+"Rails 5 - turbolinks 5,some JS not loaded on page render"
+"Ruby: What does the comment ""frozen_string_literal: true"" do?"
+Why Strong Params contains permitted: false
+Trying to understand the Ruby .chr and .ord methods
+How to use percent notation to make an array of integers in ruby?
+Bundler is removing RUBY VERSION from Gemfile.lock
+If a Rubocop rule is disabled in-line does it need to be re-enabled
+Iterate pairwise through a ruby array
+Why is safe navigation better than using try in Rails?
+to_json not converting special characters to unicode style
+How does Ruby's Object#const_get actually work?
+Skip after_commit on destroy in rails
+Best way to conditionally chain scopes
+passing array of objects from js to rails
+Devise NoMethodError 'for' ParameterSanitizer
+define_method: How to dynamically create methods with arguments
+gem install nokogiri -v '1.5.11' failed due to make: /usr/local/bin/gmkdir: No such file or directory
+Rails: PG::InsufficientPrivilege: ERROR: permission denied for relation schema_migrations
+uninitialized constant ApplicationRecord
+Disable frozen string literal comment checking
+Difference between ActiveRecord and ActiveRecord::Relation objects
+Check if number is NaN
+Rails 5 ActionController::InvalidAuthenticityToken error
+How to get params for url with whitespace as '%20' instead of '+' in Rails
+Open a new window on click submit in rails
+Getting error OmniAuth::NoSessionError with Rails 5 API
+Gitlab CI setup error - Could not find a JavaScript runtime
+"rails 5.0.0 when installing ""nio4r"" : Failed to build gem native extension"
+Ruby on Rails requests pending on Google Chrome
+Paypal REST API - Description/Item name missing
+"Rails Server won't start, Deprecation Warning in Rails 5 (MIME? Sprockets?)"
+Rails install fails: activesupport requires Ruby version >= 2.2.2
+What is the purpose of a `transient do` block in FactoryBot factories?
+undefined method respond_to in Rails 5 controller
+How to add a disabled submit button in rails
+How do I print the line number of each line in a string?
+How to format Savon Request for Cybersource SOAP API
+"How do I resolve the deprecation warning ""Method to_hash is deprecated and will be removed in Rails 5.1"""
+Deleting table from schema - Rails
+How to add a new column in an existing table in Rails 5?
+Rails - devise and sidekiq routes
+"How to fix ""Unknown ruby interpreter version (do not know how to handle): RUBY_VERSION."""
+How to fix a slow implicit query on pg_attribute table in Rails
+Ignoring GEM because its extensions are not built
+How to create OpenSSL::PKey using a public key string?
+DelegateClass vs Class Inheritance in Ruby
+Rails delegate with a different name
+Jekyll default installation doesn't have _layouts directory
+ruby - delete all files with names matching a pattern
+How to get all values of an object in ActiveRecord in Rails?
+Can I use a built-in RSpec matcher in a custom matcher?
+Rails: Unpermitted parameter in Rails 5
+"With bundler, what's the best way to tell if a gem is ""requirable""?"
+Add :on_delete to already existing foreign_key in rails migration
+How to test retries and failures in resque-retry and Rails 4?
+Rails 5 Heroku deploy error: ExecJS::ProgramError: SyntaxError: Unexpected token: name (autoRegisterNamespace)
+"Heroku and Rails: Gem Load Error with Postgres, however it is Specified in GEMFILE"
+Missing symbol when installing ruby-2.3.0 on OS X 10.11.6 by RVM
+pg_dump: [archiver (db)] query failed: ERROR: permission denied for relation abouts
+`return` in Ruby Array#map
+Rails ignores association scope when pre-caching with includes
+ruby gsub new line characters
+"What does the ""+0"" mean in the regexp \k<name+0>?"
+"What is the meaning of the keyword ""do"", in ruby?"
+The git source is not yet checked out when running Docker
+RMagick installation: Can't find MagickWand.h
+How to make LIKE clause case-insensitive?
+How to get a default value with hashes in ruby
+Find the highest value in an array of hashes in Ruby
+Passing parameters to an rspec shared example
+"Ruby: ""&& return"" vs ""and return"""
+skip_before_action and Rails 5
+How to implement private inner class in Ruby
+Check if a string contains only digits in ruby
+Rails: How to convert <img src= > to image_tag in rails app
+How do I access class variable?
+How to Remove/Disable Sign Up From Devise
+Homebrew install: Failed during: git fetch origin master:refs/remotes/origin/master -n --depth=1
+Unable to Execute Rails console command Ruby
+gem install nokogiri -v '1.6.8.1' fails
+Ruby .ceil and .floor
+missing a template for this request format and variant
+What does +@ mean as a method in ruby
+How to create a JSON object in Ruby
+How to handle before filter for specific action in Grape?
+Jekyll tags that have spaces or multiple words
+Error installing nio4r
+How to create Hash with string keys by default
+DEPRECATION WARNING: alias_method_chain is deprecated
+Why do I need to add ~/.rbenv/bin to my path?
+How to get only class name without namespace
+Travis build fails: Ruby ruby-2.2.5 is not installed
+"docker-compose: connection refused between containers, but service accessible from host"
+How to efficiently concatenate multiple arrays in Ruby?
+Elasticsearch Rails as_indexed_json vs mappings
+Ruby: Too many open files @ rb_sysopen
+How to toggle a Boolean attribute in a controller action
+"Concatenation of YAML ""anchors"" with another string in keys"
+Ruby - remove underscores and capitalize
+Library not loaded: /usr/local/opt/readline/lib/libreadline.6.dylib (LoadError)
+Handle exceptions in concurrent-ruby thread pool
+Rails 5 how to clear or delete production postgres database
+Rspec - wrong number of arguments when raising error
+"Error ""'Validate_default_type!': An option's default must match its type (ArgumentError)"" when running Ruby on Rails generate on Windows"
+Can I use .include?() in a case statement? Ruby
+Why does double shovel in Ruby not mutate state?
+ActiveJob::SerializationError - Unsupported argument type: Time / DateTime
+Way to load folder as module constant in rails app directory
+Rubocop 25 line block size and RSpec tests
+Parsing from a JSON file in Ruby and Extract numbers from Nested Hashes
+How to prevent problems with `return` from block when using Ruby `yield`
+Scopes and Queries with Polymorphic Associations
+Rails 5 - how to write a scope
+"""Expected string default value for `--jbuilder`; got true (boolean)"" error in a new rails project"
+Rails: Before process_action callback :authenticate_user! has not been defined
+Is it possible to run a Rails 4.2 app on Ruby 2.4?
+Ruby NET::HTTP Read the header BEFORE the body (without HEAD request)?
+How to replace the characters in a string
+Ruby selenium webdriver unable to find Mozilla geckodriver
+What's the precedence of method calls with and without parentheses?
+Ruby for in loop error with { } block delimiter
++= operator appears to modify frozen string
+Replacing ActiveRecord::ConnectionAdapters::ConnectionManagement in ActiveRecord 5
+Rails 5 SQL Injection
+Why is sum so much faster than inject(:+)?
+After Ruby 2.4 upgrade - error while trying to load the gem 'uglifier' (Bundler::GemRequireError)
+warning: constant ::Fixnum is deprecated When generating new model
+"Why does Ruby on Rails spuriously raise ""Unable to Autoload Constant"" after editing code?"
+Strange behavior with '_' (underscore) in Ruby
+No matching signature for operator IN for argument types STRING and {ARRAY<STRING>} (Google BigQuery)
+Ruby 2.4 and Rails 4 stack level too deep (SystemStackError)
+Ruby: undefined method `[]' for nil:NilClass when trying to get Enumerator on an Array of Hashes
+Why does RuboCop suggest replacing .times.map with Array.new?
+MySQL Gem Install Error on Ruby 2.4
+Faster way to see if a huge list of strings is contained within another string
+mysql2 gem not working after updating to Ubuntu 16.04 - libmysqlclient.so.18
+wicked_pdf shows unknown character on unicode pdf conversion (ruby)
+ruby on rails - rack-cors multiple origins with different resources
+Unknown Host Error while updating Ruby-Gems
+ActionController InvalidAuthenticityToken in Api::V1::UsersController#create
+Error while trying to load the gem 'devise. ActiveSupport: Duration can't be coerced into Integer
+Where to put code when monkey patching
+Silence deprecation warning generated from of a gem
+Ruby block taking array or multiple parameters
+How to implement composite primary keys in rails
+Helper Devise: could not find the `Warden::Proxy` instance on request environment
+"What is the point of the ""method"" method in Ruby?"
+Docker container sending empty responses
+"Fresh install of Rails and getting OpenSSL errors: ""already initialized constant OpenSSL"""
+Does concurrency happen even when only one thread is in a thread pool?
+Ruby Net::OpenTimeout: execution expired
+Why does random work like this in Ruby?
+Custom Variable in Fastlane Script
+gem install libv8 -v '5.3.332.38.1' ... Error installing libv8: ERROR: Failed to build gem native extension
+React testing setup with rails/webpacker
+Ruby version >= X is incompatible with current version
+ERROR: Error installing oj:
+Error installing json 1.8.3 with ruby 2.4
+"With Google API Client, how to create client"
+"Error to bundle install ""yajl-ruby"""
+Convert Hash to OpenStruct recursively
+"How to fix a bundle install ""nio4r error"" on Rails 5.0.0"
+Change the default value for table column with migration
+How to find current abstract route in Rails middware
+Why does the Ruby debugger return different values than the code at run time?
+Order and sort_by difference in Ruby on Rails ActiveRecord
+"What does ""No binary rubies available"" mean?"
+ActiveRecord log which query went to which database
+What is the best way to get enum string name from integer value
+Keyword arguments unpacking (splat) in Ruby
+Why is YAML.safe_load failing on a YAML alias?
+Weird syntax error with parens
+How do I remove an element from an array at a specified index but not do the operation in-place
+Parenthesize the param to make sure that block will be associated with method call
+Sunspot Rails Can't Load on Mac OS X
+Find all indices of a substring within a string
+ActionController::InvalidAuthenticityToken Rails 5 / Devise / Audited / PaperTrail gem
+Capybara - Click element by class name
+What to use instead of `render :text` (and `render nothing: true`) in rails 5.1 and later?
+Getting the model class from active record relation
+Why does `.each` return nil when called on a lazy enum after `.select`?
+Unable to convert unpermitted parameters to hash - Ruby on Rails app error
+Ruby: One-Line If-Then-Else
+How to correctly install RVM in Docker?
+Install mysql2 gem on macOS Sierra
+How to merge two arrays of hashes
+Controller spec unknown keyword: id
+Boolean logic with Rails ENV variables
+"error ""Undefinded method ""load_defaults"" "" when trying to deploy app on Heroku"
+minitest_plugin.rb:9 getting wrong number of arguments
+How to render file in Rails 5 API?
+Need to refactor to the new Ruby 1.9 hash syntax
+"How to fix undefined method `new' for ""Rack::Cors"":String"
+In Ruby how do I find the index of one of an array of elements?
+Simple Rails App: Error Cannot visit Integer
+rails redirect_to :back not working
+How to output JSON in Rails without escaping back slashes
+Rails 5.1 Configuring Built-in System Tests with RSpec
+CocoaPods not working in macOS High Sierra
+Rails 4: why is one way of rendering partials so much faster?
+How to create a JWT for use with Apple Music
+Migration to create table raises Mysql2::Error: Table doesn't exist
+Can't install Ruby rvm on Ubuntu 16.04 due to gpg bug
+Undefined method #sanitize for ActiveRecord::Base
+How to use headless chrome with capybara and selenium
+Errno::EPIPE: Broken pipe exception is raised
+Where should I place my middleware file for Rails 5.1?
+Ruby - Send GET request with headers
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension for rails version 4.2.6
+"`write': ""\xCF"" from ASCII-8BIT to UTF-8 (Encoding::UndefinedConversionError) while writing to file from url"
+How to avoid last \n character in heredoc
+"The asset ""application.js"" is not present in the asset pipeline"
+"Which one is faster between map, collect, select and pluck?"
+How to get key name from a enum value in Rails?
+How to separate multiple clauses in a DynamoDB Update Expression
+What is the difference between `try` and `&.` (safe navigation operator) in Ruby
+String interpolation with hash in ruby
+PostgreSQL conditional where clause
+Rails Unable to convert unpermitted parameters to hash
+Ruby RSA from exponent and modulus strings
+Ruby insert object into existing sorted array of objects
+Dotenv multiline variables
+Sublime Text 3: Ruby syntax highlighting bug
+Docker for Mac - mkmf.rb can't find header files for ruby
+"In Ruby, what's the advantage of #each_pair over #each when iterating through a hash?"
+"Ruby #split("""") vs #chars on a string"
+cocoapods permission issue in High Sierra?
+Run rake assets:precompile before tests that include :js tag and skip otherwise
+Add timestamps to existing table in db Rails 5+
+Active_Shipping Negotiated Rates for UPS - Ruby on Rails
+1 week from now at 8 o'clock
+How to change Ruby version for Homebrew in macOS in Travis CI?
+How to split an array by a condition on adjacent elements into a limited number of partitions
+RSpec: Avoid using allow any instance of to receive
+"An error occurred while installing pg (0.21.0), and Bundler cannot continue"
+Rails 5 db migration: how to fix ActiveRecord::ConcurrentMigrationError
+Building queries dynamically in rails
+rubocop how do you fix Missing magic comment
+What does %i or %I do in Ruby?
+Ruby: Why freeze mutable objects assigned to constants?
+TypeError: can't define singleton (RSpec)
+Rails: Loading custom class from lib folder in controller
+"""cannot load such file -- rubygems/defaults/operating_system"" when installing Ruby 2.0.0"
+how to pass multi value query params in swagger
+How do I flatten an array in Ruby?
+"Error Message ""Xcode alone is not sufficient on Sierra"""
+How can I call lanes with parameters from within my lane?
+why PG::UniqueViolation: ERROR: duplicate key value violates unique constraint?
+Rails SSL issue: (https://example.com) didn't match request.base_url (http://example.com)
+Passing parameters to raw SQL queries inside ruby on rails
+Delegating method to has_many association ignores preloading
+How do we access/manipulate variable names which conflicts with byebug reserved keywords?
+RSpec check the count of an array
+floating point error in Ruby matrix calculation
+"After ruby update to 2.5.0, require 'bundler/setup' raise exception"
+"Getting a ""don't have write permissions"" when installing cocoapod"
+vscode( vscode-ruby + rubocop ) how to auto correct on save?
+How do you declare an optional condition for an ActiveRecord belongs_to association?
+Shopify Liquid Syntax - What is the difference between {%- assign [some_var] = [some_val] -%} and {% assign [some_var] = [some_val] %}
+Why does expression (true == true == true) produce a syntax error?
+"Gem::LoadError: can't activate pg (~> 0.18), already activated pg-1.0.0"
+Don't pass block when calling super
+Why does Ruby 2.5.0 not show a stacktrace in Rails 5.1.4?
+Ignoring gems because its extensions are not built
+Convert array of strings to an array of integers
+What does the .rewind method do on a Tempfile in ruby?
+"Unexpected behaviour in Ruby for ""puts {}.class"""
+Jekyll remote theme doesn't work locally
+Ruby: Use the return of the conditional for variable assignment and comparison
+"How to flatten a hash, making each key a unique value?"
+Failed to install ruby 2.5.0 thru rbenv macOS High Sierra
+Default arguments in ruby
+Error running '__rvm_make -j 1'
+Indentation in ERB templates
+"""undefined method `stub_request'"" when accessing the method in an RSpec support file"
+How to completely remove webpack and all its dependencies from Rails App
+Formatting Date/Time in Ruby to YYYY-MM-DD HH:MM:SS
+Ransack exact match with array values
+Why is `duplicable?` defined the way it is?
+Rails 5.2 Active Storage add custom attributes
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s)
+Rails Console error after upgrading to Ubuntu 18.04
+How to specify the association with factory_bot?
+Active storage seed Rails
+Upload to S3 with progress in plain Ruby script
+Undefined local variable or method `parsedData' when Using JSON to Parse data from Googlesheets To FusionCharts in Ruby on Rails app
+Parse 'ul' and 'ol' tags
+Ruby: sum vs. inject(:+) produces different results
+Get path to ActiveStorage file on disk
+Get cookie from Golang post
+How to get url of Active Storage image
+gem install - fatal error: 'ruby/config.h' file not found in Mojave
+rake db:migrate error with mysql2 gem - Library not loaded: libssl.1.0.0.dylib
+Failure to install old mysql2 gem
+undefined method `upload' for nil:NilClass Did you mean? load
+(New to Rails) rails server error: cannot load such file -- bootsnap/setup (LoadError)
+"Rails migration, references `unique: true` isn't generating `unique: true` in schema causing constancy_fail check to fail"
+What is the purpose of `nil` private methods in ruby?
+Error installing jekyll: ERROR: Failed to build gem native extension
+cocoa pods install on iOS project not working
+Ruby on Rails test coverage with simplecov
+"Array#push causes ""stack level too deep"" error with large arrays"
+Can't find gem railties (>= 0.a) with executable rails (Gem::GemNotFoundException)
+Error occurred while installing mini_racer (0.2.0)
+SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)
+No such file or directory @ rb_sysopen - tmp/pids/puma.pid
+How do I add trackable to an existing Devise setup?
+Rails ActiveStorage scope for when file is attached
+Bundle install fails to install libxml-ruby
+Why is my jekyll command not working anymore?
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80))
+"rubocop on VScode not working.Error ""rubocop is not executable"""
+Carrierwave: Argument Error Nil location provided. Can't build URI for an image_tag using carrier wave Ruby on Rails
+How to correct `Style/ClassVars` in RuboCop?
+rbenv  'find_spec_for_exe': can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)
+Bundler: can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException) during bundle install with gem
+Rails: Shoulda-matchers belong_to optional test
+Unable to install any Ruby with RVM on MacOS 10.14.2 Mojave: Error running '__rvm_make -j4'
+Rails - Rubocop - Begin + Rescue syntax
+"`brew upgrade <package>`: ""<package> cannot be built with any available compilers"""
+"Where does active storage store files (on disk), and how can I retrieve them physically?"
+Build new Rails app Error loading the 'sqlite3' without evidently write verion
+ERROR: While executing gem ... (TypeError) incompatible marshal file format (can't be read)
+Ruby cannot load such file - active_support/core_ext/object/blank
+"What is this file config.ru, and what is it for?"
+How to turn off Rails caching during development
+Elastic Beanstalk: can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)
+Break out of a begin/end block early
+How to do a negative lookbehind within a %r<>-delimited regexp in Ruby?
+You must use Bundler 2 or greater with this lockfile. When running docker-compose up locally
+Rails: Capyabra / Selenium Chrome-Driver Settings
+Rails: Installing font-awesome in Rails 6.0.0-rc1 with webpacker and yarn
+Ruby on Rails - Faraday SSLError wrong version number
+"Your bundle is locked to ffi (1.11.0), but that version could not be found in any of the sources listed in your Gemfile"
+How can I preload concerns in a rails initializer using Rails 6/Zeitwerk?
+How to use sorbet type checking with RSpec mocks?
+Using multiple Bundler versions
+Rails 6.1 will return Content-Type header without modification ... use `#media_type` instead
+"The ""realmRoles"" parameter is ignored when adding a user via the Keycloak API"
+What to use instead of --no-ri for gem install?
+"Difference between ""def setup"" and ""setup do"" in Minitest?"
+Why is a statement like 1 + n *= 3 allowed in Ruby?
+"Why is ""render 'new' "" changing my URL? (Ruby On Rails)"
+How to ignore a folder in Zeitwerk for Rails 6?
+"Why is a Regexp object considered to be ""falsy"" in Ruby?"
+How to fix DEPRECATION WARNING: Class level methods will no longer inherit scoping from in Rails 6.1?
+Why do we have 0.0 and -0.0 in Ruby?
+undefined method `plain_specs' for #<Bundler::RubygemsIntegration:0x00005633f09a9000> (NoMethodError)
+The called method `...' is defined here
+undefined method `transform_keys' loading Sidekiq web
+How to detect if two images are the same with different cropping ratios?
+Error installing Ruby 2.3.8 in OSX 10.15.2 Catalina using RVM; OpenSSL not found
+Navigate to Ruby function definition in VS Code
+"Cocoapods installation failed, Failed to build gem native extension"
+Is there an alias_method for a class method?
+Destructure a Hash in block arguments in Ruby 2.7
+Can I create a proc in the context of itself?
+fail to bundle install puma 4.3.5 or gem puma with ruby-2.6.6 on macos-10.15.6
+Thin and Puma fail with similar issues - ERROR: Failed to build gem native extension on Mac with OpenSSL@1.1
+package configuration for libffi is not found in macOS while installing travis-cli
+How to get documentation for a method in a Ruby gem?
+An error occurred while installing thin (1.7.2)
+Can't Install ffi -v '1.9.18' on macos Catalina
+Need help installing Ruby 2.7.2 on Mac
+Unable to run Puma as daemon OptionParser::AmbiguousOption: ambiguous option: -d
+What's the 3-dots method argument in Ruby?
+Rails ActiveSupport time and timezone error on Alpine Linux
+make: /usr/bin/mkdir: Command not found during `gem install nokogiri` in Ubuntu 20.04
+Flutter pod install problem - undefined method `each_child' for #<Dir:0x00007fa6f7e2ec80>
+"Ruby 2.7 says URI.escape is obsolete, what replaces it?"
+"RVM, where is Ruby 3.0.0?"
+"Rails 6.1, Ruby 3.0.0: tests error as they cannot load rexml"
+cannot load such file -- webrick/httputils
+undefined method `file_fixture_path' after upgrade to ruby 3 and rails 6.1
+No such file or directory @ rb_sysopen for external URL / Rails 6.11 / Ruby 3
+bundle exec jekyll serve: cannot load such file
+Error running rails s on M1 chip (Apple Silicon)
+Rspec: How to verify if a record has been deleted?
+Ruby: BUILD FAILED (macOS 11.2 using ruby-build 20210119) Mac Big Sur
+Can't Install Rails on Mac OS Catalina
+Bundler::GemNotFound: Could not find mimemagic-0.3.5 in any of the sources on Rails project with Docker
+Error installing ruby 2.6.7 on mac os - how to resolve?
+Why is the string '3' not matched in a case statement with the range ('0'...'10')?
+ld: library not found for -lzstd while bundle install for mysql2 gem Ruby on macOS Big Sur 11.4 Apple M1
+"How to fix this in error rails ""warning: 299 Elasticsearch built-in security features are not enabled. Without authentication, your cluster could..."""
+You don't have write permissions for the /usr/lib/ruby/gems/2.7.0 directory (Alpine linux docker image)
+RVM install ruby 2.6.4 fails with makefile error: implicit declaration of function 'ffi_prep_closure' is invalid in C99
+"In Ruby, in a method defined in class << self, why can't a constant defined on the superclass be access without self?"
+Error when trying to install devise in Ruby on Rails 7.0.0
+"mimemagic install error: ""Could not find MIME type database in the following locations..."" on Windows"
+Rails 7 Ruby 3.1 LoadError: cannot load such file -- net/smtp
+Is there a reason why Ruby's prepend behaves differently when used with modules versus classes?
+RAILS Calling `DidYouMean::SPELL_CHECKERS.merge!(error_name => spell_checker)' has been deprecated
+visit_Psych_Nodes_Alias: Unknown alias: default (Psych::BadAlias)
+Upgrading to Ruby 3.1 causes Psych::DisallowedClass exception when using YAML.load_file
+Rails Console - Deprecation Notices After Updating Gems
