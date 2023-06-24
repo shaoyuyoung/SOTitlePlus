@@ -35,4 +35,4 @@ Instruction for use:<br>
 2.Enter this website: [https://stackoverflow.com/questions/ask](https://stackoverflow.com/questions/ask)<br>
 3.After you provide problem description and code snippet, press `Ctrl` + `Q` to generated candidate titles.
 
-We provide demo video on youtube:[https://youtu.be/_KgUISAT74M](https://youtu.be/_KgUISAT74M)
+We provide demo video on youtube:[https://www.youtube.com/watch?v=_KgUISAT74M](https://www.youtube.com/watch?v=_KgUISAT74M)
