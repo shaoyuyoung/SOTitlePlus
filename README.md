@@ -32,7 +32,7 @@ You need to put your APIKEY and design your own prompt. We keep the original pro
 We developed a browser plugin based on SOTitle and integrated it into the Chrome browser.
 Instruction for use:<br>
 1. Download and install the plugin from the [SOTitlePlusPlugin](./SOTitlePlusPlugin) folder.<br>
-2.Enter this website: [https://stackoverflow.com/questions/ask](https://stackoverflow.com/questions/ask)<br>
+2. Enter this website: [https://stackoverflow.com/questions/ask](https://stackoverflow.com/questions/ask)<br>
 3. After you provide the problem description and code snippet, press `Ctrl` + `Q` to generate candidate titles.
 
 We provide a demo video on youtube:[https://www.youtube.com/watch?v=_KgUISAT74M](https://www.youtube.com/watch?v=_KgUISAT74M)
