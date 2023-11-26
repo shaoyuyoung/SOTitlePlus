@@ -53,9 +53,9 @@ class SOTitlePlus:
         # *********************************************************************************************************
 
         # model init --------------------------------------------------------------
-        self.model_config = T5Config.from_pretrained(r"E:\models\codet5-base")
-        self.plm = T5ForConditionalGeneration.from_pretrained(r"E:\models\codet5-base", config=self.model_config)
-        self.tokenizer = RobertaTokenizer.from_pretrained(r"E:\models\codet5-base")
+        self.model_config = T5Config.from_pretrained(config.model_name_or_path)
+        self.plm = T5ForConditionalGeneration.from_pretrained(config.model_name_or_path, config=self.model_config)
+        self.tokenizer = RobertaTokenizer.from_pretrained(config.model_name_or_path)
 
         self.WrapperClass = T5TokenizerWrapper
 

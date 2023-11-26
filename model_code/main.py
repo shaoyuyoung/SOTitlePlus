@@ -12,7 +12,7 @@ class Config(object):
         self.dev_filename = '../data/valid.csv'
         self.test_filename = '../data/test.csv'
         self.model_type = 'codet5'
-        self.model_name_or_path = 'E:/models/codet5-base'
+        self.model_name_or_path = 'Salesforce/codet5-base'
         self.log_name = './log/python.log'
         self.output_dir = "../model"
         self.data_dir = "./data"
