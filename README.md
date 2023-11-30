@@ -17,11 +17,11 @@ We provide our model, [please click here](https://drive.google.com/drive/folders
 ## Experimental replication
 In [`./model_model`](./model_code), We shared the script to replicate the experimental data in our paper
 #### Replication step
-1. Mkdir a `data` catalogue in the root directory and [download the datasets](https://drive.google.com/drive/folders/1305VgV-ZvanfPvfBnKeZeQjbnJPA-PPs?usp=sharing) in `data` catalogue. 
-2. Clone the repo
+1. Clone the repo
    ```shell
    git clone https://github.com/shaoyuyoung/SOTitlePlus.git
    ```
+2. Mkdir a `data` catalogue in the root directory and [download the datasets](https://drive.google.com/drive/folders/1305VgV-ZvanfPvfBnKeZeQjbnJPA-PPs?usp=sharing) in `data` catalogue. 
 3. Make sure your version of python is ``python3.9`` (Due to compatibility [issue](https://github.com/Maluuba/nlg-eval/issues/149) with the [nlg-eval library](https://github.com/Maluuba/nlg-eval), we ``do not support python3.10`` or later)
 4. Install the dependencies according to the requirements file
    ```shell
