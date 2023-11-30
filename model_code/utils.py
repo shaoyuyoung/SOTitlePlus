@@ -166,6 +166,7 @@ def calculate_rouge(file_name, config, tokenizer, device, model, promptTemplate,
 def read_prompt_examples(filename):
     """Read examples from filename."""
     examples = []
+    print(filename)
     if 'train' in filename:
         data = pd.read_csv(filename).astype(str)  # .sample(frac=1)
     else:

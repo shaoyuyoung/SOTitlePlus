@@ -2,7 +2,7 @@ from __future__ import absolute_import
 import time
 import logging
 from utils import read_prompt_examples, get_elapse_time, calculate_rouge
-from prompt_t5 import SOTitlePlus
+from SOTitlePlus import SOTitlePlus
 
 
 class Config(object):
