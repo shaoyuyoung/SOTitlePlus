@@ -86,9 +86,6 @@ class SOTitlePlus:
         if self.config.do_train:
             # get train_examples
             train_examples = read_prompt_examples(self.train_filename)
-            # print(train_examples)
-
-            # exit()
 
             # take an example
             wrapped_example = self.promptTemplate.wrap_one_example(train_examples[0])

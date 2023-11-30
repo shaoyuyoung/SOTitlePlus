@@ -8,15 +8,15 @@ from SOTitlePlus import SOTitlePlus
 class Config(object):
     def __init__(self):
         self.cuda = True
-        self.train_filename = '../data/train.csv'
-        self.dev_filename = '../data/valid.csv'
-        self.test_filename = '../data/test.csv'
+        self.train_filename = 'data/train.csv'
+        self.dev_filename = 'data/valid.csv'
+        self.test_filename = 'data/test.csv'
         self.model_type = 'codet5'
         self.model_name_or_path = 'Salesforce/codet5-base'
-        self.log_name = './log/python.log'
-        self.output_dir = "../model"
-        self.data_dir = "./data"
-        self.result_dit = './results'
+        self.log_name = 'log/python.log'
+        self.output_dir = "model"
+        self.data_dir = "data"
+        self.result_dit = 'results'
         self.langs = ['python', 'java', 'c#', 'javascript', 'php', 'html']
         self.no_cuda = False
         self.visible_gpu = ""
@@ -66,9 +66,9 @@ if __name__ == '__main__':
     logger = logging.getLogger(__name__)
 
     # write to file
-    # handler = logging.FileHandler(my_config.log_name)
-    # handler.setLevel(logging.INFO)
-    # logger.addHandler(handler)
+    handler = logging.FileHandler(my_config.log_name)
+    handler.setLevel(logging.INFO)
+    logger.addHandler(handler)
 
     # write to console
     console = logging.StreamHandler()

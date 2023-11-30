@@ -1,24 +1,15 @@
 # coding=utf8
-import string
-
 import torch
 import warnings
-import pandas as pd
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import time
 from openprompt.data_utils import InputExample
-import numpy as np
 from openprompt.plms import T5TokenizerWrapper
 from openprompt.prompts import MixedTemplate
-from tqdm import tqdm
-from transformers import RobertaTokenizer, RobertaForSequenceClassification, T5Tokenizer, T5ForConditionalGeneration, \
+from transformers import RobertaTokenizer, T5ForConditionalGeneration, \
     T5Config
-from flask import send_file
 from openprompt import PromptDataLoader, PromptForGeneration
-
-
-
 
 app = Flask(__name__, template_folder="page", static_folder="page")
 app.config['JSON_AS_ASCII'] = False
@@ -102,5 +93,3 @@ def so():
 
 if __name__ == '__main__':
     app.run(port=5000)
-
-

@@ -1,0 +1,11 @@
+torch==2.1.1+cu118
+openprompt==1.0.1
+transformers==4.35.2
+pandas==1.5.2
+nltk==3.7
+tqdm==4.65.0
+numpy==1.23.5
+rouge==1.0.0
+lxml==4.9.1
+beautifulsoup4==4.11.1
+flask==3.0.0

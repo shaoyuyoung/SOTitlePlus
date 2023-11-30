@@ -17,15 +17,25 @@ We provide our model, [please click here](https://drive.google.com/drive/folders
 ## Experimental replication
 In [`./model_model`](./model_code), We shared the script to replicate the experimental data in our paper
 #### Replication step
-1. [Download the datasets](https://drive.google.com/drive/folders/1305VgV-ZvanfPvfBnKeZeQjbnJPA-PPs?usp=sharing) and mkdir a `data` catalogue in the root directory. 
-2. Training and evaluating the model (fine-tuning and prompt-tuning in this phase)
+1. Mkdir a `data` catalogue in the root directory and [download the datasets](https://drive.google.com/drive/folders/1305VgV-ZvanfPvfBnKeZeQjbnJPA-PPs?usp=sharing) in `data` catalogue. 
+2. Clone the repo
+   ```shell
+   git clone https://github.com/shaoyuyoung/SOTitlePlus.git
+   ```
+3. Make sure your version of python is ``python3.9`` (Due to compatibility [issue](https://github.com/Maluuba/nlg-eval/issues/149) with the [nlg-eval library](https://github.com/Maluuba/nlg-eval), we ``do not support python3.10`` or later)
+4. Install the dependencies according to the requirements file
+   ```shell
+   pip install requirements.txt
+   ```
+5. Training and evaluating the model (fine-tuning and prompt-tuning in this phase)
     ```shell
    python model_code/main.py 
    ```
-3. Calculating the metrics
+6. Calculating the metrics
    ```shell
    python results/metrics.py
    ```
+If you have any questions on replication, please feel free to report in the [issue](https://github.com/shaoyuyoung/SOTitlePlus/issues)🤗
 
 
 ## Results
@@ -46,8 +56,6 @@ Here is our user study results. Detailed votes can be found in [Google table](ht
 | Python     | How do I change variables in a function in python?               | How to change variables in python script                                       | https://stackoverflow.com/questions/51564669 |
 | Java       | Difference between spring-data-jpa and spring-boot-starter-data- | Spring Boot 2 JPA                                                              | https://stackoverflow.com/questions/44768112 |
 | JavaScript | Setting a variable equal to another variable in JavaScript       | JavaScript: Why is a variable not modified when we set it to another variable? | https://stackoverflow.com/questions/50840293 |
-
-
 
 
 ## Discussion of ChatGPT

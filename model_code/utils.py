@@ -1,12 +1,10 @@
-import json
 import logging
 import pandas as pd
 import os
 import time
 import torch
-import random
 from io import open
-from openprompt import PromptDataLoader, PromptForGeneration
+from openprompt import PromptDataLoader
 from tqdm import tqdm
 from openprompt.data_utils import InputExample
 from nlgeval import compute_metrics
@@ -126,10 +124,6 @@ def calculate_rouge(file_name, config, tokenizer, device, model, promptTemplate,
         batch = batch.to(device)
         with torch.no_grad():
             _, output_sentence = model.generate(batch, num_beams=10)
-            # print(output_sentence)
-            # output_sentence=[x.strip('"') for x in output_sentence]
-            # if output_sentence.startswith('"'):
-            #     output_sentence = output_sentence.strip('"')
             generated_texts.extend(output_sentence)
             groundtruth_sentence.extend(batch['tgt_text'])
             guids.extend(batch['guid'])
@@ -144,11 +138,7 @@ def calculate_rouge(file_name, config, tokenizer, device, model, promptTemplate,
             f.write(ref + '\n')
             f1.write(gold + '\n')
     current_directory = r'{}'.format(os.path.dirname(os.path.abspath(__file__)))
-    pred_file = r'{}\results\{}_pred.csv'.format(current_directory, file_prefix)
-    gold_file = r'{}\results\{}_gold.csv'.format(current_directory, file_prefix)
-    print(pred_file)
     # compute rouge
-
     metrics_dict = compute(current_directory + r'\results\{}.pred.csv'.format(file_prefix),
                            current_directory + r'\results\{}.gold.csv'.format(file_prefix))
     this_rouge = metrics_dict['ROUGE_L']
@@ -166,7 +156,6 @@ def calculate_rouge(file_name, config, tokenizer, device, model, promptTemplate,
 def read_prompt_examples(filename):
     """Read examples from filename."""
     examples = []
-    print(filename)
     if 'train' in filename:
         data = pd.read_csv(filename).astype(str)  # .sample(frac=1)
     else:
@@ -175,7 +164,6 @@ def read_prompt_examples(filename):
     desc = data['desc'].tolist()
     code = data['code'].tolist()
     title = data['title'].tolist()
-    # print(data.head())
     for idx in range(len(data)):
         examples.append(
             InputExample(

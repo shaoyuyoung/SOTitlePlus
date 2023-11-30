@@ -1,23 +1,12 @@
 # coding=utf8
 import logging
-import string
 import  warnings
 import torch
-import requests
-import io
-import urllib
-import pandas as pd
-from flask import Flask, request, jsonify, render_template
-from flask_cors import CORS
-import time
 from openprompt.data_utils import InputExample
-import numpy as np
 from openprompt.plms import T5TokenizerWrapper
 from openprompt.prompts import MixedTemplate
-from tqdm import tqdm
-from transformers import RobertaTokenizer, RobertaForSequenceClassification, T5Tokenizer, T5ForConditionalGeneration, \
-    T5Config,AutoModel,AutoConfig,AutoTokenizer
-from flask import send_file
+from transformers import RobertaTokenizer, T5ForConditionalGeneration, \
+    T5Config
 from openprompt import PromptDataLoader, PromptForGeneration
 
 warnings.filterwarnings("ignore")
