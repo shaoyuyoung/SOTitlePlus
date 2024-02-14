@@ -5,16 +5,10 @@ The framework of our proposed approach `SOTitle+`
 
 ![](./figs/Framework.jpg)
 
-## Corpus
-If you want to download our datasets, [please click here](https://drive.google.com/drive/folders/1305VgV-ZvanfPvfBnKeZeQjbnJPA-PPs?usp=sharing)
+## Corpus & Model
+We publish [our dataset and trained model on Zenodo](https://zenodo.org/records/10656359?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjMyMTIwMTcwLWJiY2QtNDhlOC05ZTdmLTMxNDdmYmExMmNiYyIsImRhdGEiOnt9LCJyYW5kb20iOiJkNDIwM2JhYmEzZDFlYjYyZWI5Mzk4NjNmODgyOGM2YiJ9.sCb43P1zLjDuCP3A01bhgGVGi9n2TzB1CbjjDK_zZQ8LeDMkwvHjH0BFM_TwckYrAJd3AiOtuOmCCE16Uv86UQ). 
 
-### data_prepare
-In [`./data_prepare`](./data_prepare), we provide our data_prepare scripts. If you want to download the original data dump log, please refer to [https://archive.org/download/stackexchange](https://archive.org/download/stackexchange). Then use our shared scripts to filter and split the corpus.
-
-## Model
-We provide our model, [please click here](https://drive.google.com/drive/folders/1M_1XvJ0MrGlDB_T7jtK_Cb9SiWToh13z?usp=sharing).
-
-## Experimental replication
+## Experimental Replication Tutorials
 In [`./model_model`](./model_code), We shared the script to replicate the experimental data in our paper
 #### Replication step
 1. Clone the repo
@@ -35,41 +29,50 @@ In [`./model_model`](./model_code), We shared the script to replicate the experi
    ```shell
    python results/metrics.py
    ```
-If you have any questions on replication, please feel free to report in the [issue](https://github.com/shaoyuyoung/SOTitlePlus/issues)🤗
+   If you have any questions on replication, please feel free to report in the [issue](https://github.com/shaoyuyoung/SOTitlePlus/issues)🤗
 
 
 ## Results
 In [`./results`](./results), run [`metrics.py`](./results/prompt-tuning/metrics.py) to calculate ROUGE, METEOR, BLEU and CIDEr
 
 
-## Edge cases of SOTitle+ in human study
-We selected and analysed some edge cases in human study.<br>
-We share the results in the [Google table](https://docs.google.com/spreadsheets/d/17e_MBkhABYYVkYDRhY1o7SeTRiirYNROn8-mABD0SkY/edit?usp=sharing)
+## SOQTG of ChatGPT
+If you want to use ChatGPT to generate Stack Overflow question titles, we share scripts in [`./run_ChatGPT_API`](./run_ChatGPT_API).
 
-## User Study results
-Here is our user study results. Detailed votes can be found in [Google table](https://docs.google.com/spreadsheets/d/1mrl02Mkq-dolArN11X4ccU6DPhJQpU2glObRnUC452M/edit?usp=sharing)<br> 
-![](figs/UserStudyresults.png)
-## Comparison between prompt-tuning and fine-tuning on generated titles
-
-| Language   | Prompt-tuning                                                    | Fine-tuning                                                                    | URL                                          |
-|------------|------------------------------------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------|
-| Python     | How do I change variables in a function in python?               | How to change variables in python script                                       | https://stackoverflow.com/questions/51564669 |
-| Java       | Difference between spring-data-jpa and spring-boot-starter-data- | Spring Boot 2 JPA                                                              | https://stackoverflow.com/questions/44768112 |
-| JavaScript | Setting a variable equal to another variable in JavaScript       | JavaScript: Why is a variable not modified when we set it to another variable? | https://stackoverflow.com/questions/50840293 |
-
-
-## Discussion of ChatGPT
-If you want to use ChatGPT to generate Stack Overflow question titles, we share scripts in [`./run_ChatGPT_API`](./run_ChatGPT_API).<br>
 You need to put your APIKEY and design your own prompt. We keep the original prompts from our experiment in the script.
-
-
 
 
 ## Tool and Demo
 We developed a browser plugin based on SOTitle and integrated it into the Chrome browser.
-Instruction for use:<br>
-1. Download and install the plugin from the [SOTitlePlusPlugin](./SOTitlePlusPlugin) folder.<br>
-2. Enter this website: [https://stackoverflow.com/questions/ask](https://stackoverflow.com/questions/ask)<br>
+Instruction for use:
+
+1. Download and install the plugin from the [SOTitlePlusPlugin](./SOTitlePlusPlugin) folder.
+2. Enter this website: [https://stackoverflow.com/questions/ask](https://stackoverflow.com/questions/ask)
 3. After you provide the problem description and code snippet, press `Ctrl` + `Q` to generate candidate titles.
 
 We provide a demo video on youtube:[https://www.youtube.com/watch?v=_KgUISAT74M](https://www.youtube.com/watch?v=_KgUISAT74M)
+
+## Appendix
+
+Below are some additional appendices added during the peer review, including:
+
+1. **Edge cases of SOTitle+ in human study**
+
+We selected and analysed some edge cases in human study.
+
+We share the results in the [Google table](https://docs.google.com/spreadsheets/d/17e_MBkhABYYVkYDRhY1o7SeTRiirYNROn8-mABD0SkY/edit?usp=sharing)
+
+2. **User Study results**
+
+Here is our user study results. Detailed votes can be found in [Google table](https://docs.google.com/spreadsheets/d/1mrl02Mkq-dolArN11X4ccU6DPhJQpU2glObRnUC452M/edit?usp=sharing)
+![](figs/UserStudyresults.png)
+
+3. **Some examples of prompt tuning contribution to generated titles**
+
+| Language   | Prompt-tuning                                                | Fine-tuning                                                  | URL                                          |
+| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------- |
+| Python     | How do I change variables in a function in python?           | How to change variables in python script                     | https://stackoverflow.com/questions/51564669 |
+| Java       | Difference between spring-data-jpa and spring-boot-starter-data- | Spring Boot 2 JPA                                            | https://stackoverflow.com/questions/44768112 |
+| JavaScript | Setting a variable equal to another variable in JavaScript   | JavaScript: Why is a variable not modified when we set it to another variable? | https://stackoverflow.com/questions/50840293 |
+
+We can find that prompt-tuning is more informative and natural than fine-tuning in these examples. Moreover, titles generated by prompt-tuning are more similar to ground truth titles (which can be found in the URL) than those generated by fine-tuning.
