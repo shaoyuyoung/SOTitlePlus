@@ -1,12 +1,13 @@
 ### Prompt Embeddings
 
 Our hybrid prompt is designed below:
+
 $$
 \begin{equation}
-\label{equ:hybrid}
 f_{\text{hybrid}} = \text{The problem description: }[X] \;  \text{The code snippet: }[Y] \; [\text{SOFT}] \; [Z]
 \end{equation}
 $$
+
 Where, "The problem description:" and "The code snippet: " represent the hard prompt template. "[SOFT]" represents the vanilla soft prompt. We initialize them as "Generate the question titles:". On the word embedding, they are then mapped as vectors and become part of the model parameters, which will be tuned in the subsequent model training process. Below we show the word embedding results of initialization.
 
 | Token    | Embedding                                                    |
