@@ -4,7 +4,7 @@ Our hybrid prompt is designed below:
 
 $$
 \begin{equation}
-f_{\text{hybrid}} = \text{The problem description: }[X] \;  \text{The code snippet: }[Y] \; [\text{SOFT}] \; [Z]
+f_{\text{hybrid}} = \text{The problem description: }[X] \  \text{The code snippet: }[Y] \ [\text{SOFT}] \ [Z]
 \end{equation}
 $$
 
