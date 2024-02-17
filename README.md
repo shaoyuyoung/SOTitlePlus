@@ -6,7 +6,7 @@ The framework of our proposed approach `SOTitle+`
 ![](./figs/Framework.jpg)
 
 ## Corpus & Model
-We publish [our dataset and trained model on Zenodo](https://zenodo.org/records/10656359?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjMyMTIwMTcwLWJiY2QtNDhlOC05ZTdmLTMxNDdmYmExMmNiYyIsImRhdGEiOnt9LCJyYW5kb20iOiJkNDIwM2JhYmEzZDFlYjYyZWI5Mzk4NjNmODgyOGM2YiJ9.sCb43P1zLjDuCP3A01bhgGVGi9n2TzB1CbjjDK_zZQ8LeDMkwvHjH0BFM_TwckYrAJd3AiOtuOmCCE16Uv86UQ). 
+We publish [our dataset and trained model on Zenodo](https://zenodo.org/records/10656359). 
 
 ## Experimental Replication Tutorials
 In [`./model_model`](./model_code), We shared the script to replicate the experimental data in our paper
