@@ -1,4 +1,4 @@
-# SOTitle+: Automatic Bi-modal Question Title Generation for Stack Overflow with Prompt Learning
+# Automatic Bi-modal Question Title Generation for Stack Overflow with Prompt Learning
 
 ## Introduction
 The framework of our proposed approach `SOTitle+`
