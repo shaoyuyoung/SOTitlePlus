@@ -1,5 +1,24 @@
 # Automatic Bi-modal Question Title Generation for Stack Overflow with Prompt Learning
 
+## Paper
+<details><summary><b> 📜 Automatic Bi-modal Question Title Generation for Stack Overflow with Prompt Learning </b> </summary>
+<div>
+
+```bibtex
+to appear
+}
+```
+
+</div>
+</details>
+
+<p align="center">
+    <a href="https://arxiv.org/abs/2403.03677"><img src="https://img.shields.io/badge/Paper-EMSE'23-a55fed.svg"></a>
+    <a href="https://arxiv.org/abs/2403.03677"><img src="https://img.shields.io/badge/arXiv-2403.03677-b31b1b.svg"></a>
+    <a href="https://github.com/shaoyuyoung/SOTitlePlus"><img src="https://img.shields.io/badge/artifact-git-black.svg"></a>
+    <a href="https://zenodo.org/records/10656359"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10656359.svg"></a>
+</p>
+
 ## Introduction
 The framework of our proposed approach `SOTitle+`
 
