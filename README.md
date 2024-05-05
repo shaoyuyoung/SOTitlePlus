@@ -6,10 +6,14 @@
 
 ```bibtex
 @article{yang2024automatic,
-  title={Automatic Bi-modal Question Title Generation for Stack Overflow with Prompt Learning},
+  title={Automatic bi-modal question title generation for Stack Overflow with prompt learning},
   author={Yang, Shaoyu and Chen, Xiang and Liu, Ke and Yang, Guang and Yu, Chi},
-  journal={arXiv preprint arXiv:2403.03677},
-  year={2024}
+  journal={Empirical Software Engineering},
+  volume={29},
+  number={3},
+  pages={63},
+  year={2024},
+  publisher={Springer}
 }
 ```
 
@@ -17,7 +21,7 @@
 </details>
 
 <p align="center">
-    <a href="https://arxiv.org/abs/2403.03677"><img src="https://img.shields.io/badge/Paper-EMSE'23-a55fed.svg"></a>
+    <a href="https://link.springer.com/article/10.1007/s10664-024-10466-4"><img src="https://img.shields.io/badge/Paper-EMSE'23-a55fed.svg"></a>
     <a href="https://arxiv.org/abs/2403.03677"><img src="https://img.shields.io/badge/arXiv-2403.03677-b31b1b.svg"></a>
     <a href="https://github.com/shaoyuyoung/SOTitlePlus"><img src="https://img.shields.io/badge/artifact-git-black.svg"></a>
     <a href="https://zenodo.org/records/10656359"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10656359.svg"></a>
